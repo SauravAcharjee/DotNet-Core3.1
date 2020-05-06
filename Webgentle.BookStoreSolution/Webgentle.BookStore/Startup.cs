@@ -27,7 +27,8 @@ namespace Webgentle.BookStore
             }
 
             app.UseRouting();
-
+            // sma200506
+            // When do we need the Middleware to Support the Static File?? 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
